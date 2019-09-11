@@ -59,14 +59,3 @@ result = schema.execute(
 dictResult = dict(result.data.items())
 
 print(json.dumps(dictResult, indent=2))
-
-
-
-
-    #  '''
-    # {
-    #   users(limit: 2){
-    #       username
-    #   }
-    # }
-    #  '''
